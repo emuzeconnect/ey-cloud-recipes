@@ -68,7 +68,7 @@ require_recipe "mongodb"
 #require_recipe "mysql_administrative_tools"
 
 #uncomment to include the Elasticsearch recipe
-#require_recipe "elasticsearch"
+require_recipe "elasticsearch"
 
 # To install specific plugins to Elasticsearch see below as an example
 #es_plugin "cloud-aws" do
